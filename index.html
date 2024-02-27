@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend> <b>Student Bio</b></legend>
+   <form>
+     <label for="name">Username:</label>
+     <input type="text" id="name" name="username" required />
+     
+     <br><br>
+     <label for="password">Password:</label>
+     <input type="password" id="password" name="password" >
+     
+     <br><br>
+     <label for ="email">Email:</label>
+     <input type="email" id="email" name="email"/>
+     <br><br>
+     <label for="address">Address</label>
+     <input type="text"id="address"name="address"/>
+     <br><br>
+     <label for="pincode">Pincode</label>
+     <input type="text"id="pincode"name="pincode"/>
+     <br><br>
+     <label for="gender">Gender:</label>
+     <input type ="radio" id="gender" name="Gender" value="male"/>Male
+     <input type ="radio" id="gender" name="Gender" value="female"/>Female
+     <input type ="radio" id="gender" name="Gender" value="others"/>Others
+     <br><br>
+     <label for="Mobile Number">Mobile Number:</label>
+     <input type="number" id="number" name="Mobile Number"pattern[1-10]/>
+    <br><br>
+    <label for="Age" >Age:</label>
+    <input type="Radio"id=Age name="AGE" value="not an adult"/>Under 18
+    <input type="radio" id="Age" name="AGE"value="adult"/>18 0r Above18
+    <br><br>
+    <label for="int">Favourite sports:</label>
+    <input type="checkbox" id="int" name="int"/>Volleball
+    <input type="checkbox" id="int" name="int"/>cricket
+    <input type="checkbox" id="int" name="int"/>Football
+    <input type="checkbox" id="int" name="int"/>Baseball
+    <br><br>
+    <label for="edu">Educational Qualification:</label>
+    <input type="Radio" id="edu" name="edu" value="ssc"/>SSC
+    <input type="radio" id="edu" name="edu"value="inter"/>Intermediate
+    <input type="radio" id="edu" name="edu"value="Graduation"/>Graduation
+    <input type="radio" id="edu" name="edu"value="pg"/>PG
+    <br><br>
+    <label for="religion">Religion:</label>
+    <input type="text" id="religion"name="religion" pattern= />
+    <br><br>
+    <label for="birthday">Birthday (date):</label>
+  <input type="date" id="birthday" name="birthday">
+    <br><br>
+    <label for="native">Native Place</label>
+    <input type="text" id="native" name="native" placeholder="hyderabad"/>
+    
+
+
+
+   </fieldset>
+</body>
+</html>
